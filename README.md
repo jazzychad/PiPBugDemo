@@ -7,6 +7,10 @@ This bug manifests itself with the following consequence: **It is not possible t
 
 ---
 
+### PLEASE NOTE: THIS CODE MUST BE RUN ON REAL DEVICES. SIMULATORS DO NOT SUPPORT THIS NEW PIP API
+
+---
+
 This project presents 3 apps, one for `iOS`, `tvOS`, and `macOS` - which are all setup to use Picture in Picture with AVSampleBufferDisplayLayer as the content source. This is new API available in iOS 15, tvOS 15, and macOS 12.
 
 For `iOS` and `tvOS` I have added the `Picture in Picture` background mode in Signing and Capabilities (Info.plist entry). There doesn't seem to be an equivelent on `macOS`.
@@ -33,7 +37,7 @@ pipController = AVPictureInPictureController(contentSource: contentSource)
 pipController.delegate = self
 ```
 
-On `iOS` I am receiving delegate callbacks to the `AVPictureInPictureSampleBufferPlaybackDelegate` methods:
+On `iOS`, as soon as I instantiate `AVPictureInPictureController(contentSource: contentSource)` I am receiving delegate callbacks to the `AVPictureInPictureSampleBufferPlaybackDelegate` methods:
 
 ```
 IOSViewController.pictureInPictureControllerTimeRangeForPlayback(_:)
