@@ -70,6 +70,7 @@
 		63D380A1273C5FA700EB04B5 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		63D380A2273C5FA700EB04B5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		63D380A3273C5FA700EB04B5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		63D380B3273C7E9800EB04B5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,7 @@
 		63D38051273C595500EB04B5 = {
 			isa = PBXGroup;
 			children = (
+				63D380B3273C7E9800EB04B5 /* README.md */,
 				63D3809A273C5B1700EB04B5 /* Common */,
 				63D3805C273C595500EB04B5 /* PiPBugDemoTV */,
 				63D38073273C599800EB04B5 /* PipBugDemoMac */,

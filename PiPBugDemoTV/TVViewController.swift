@@ -72,9 +72,6 @@ class TVViewController: UIViewController, AVPictureInPictureSampleBufferPlayback
     // MARK: - AVPictureInPictureSampleBufferPlaybackDelegate
 
     func pictureInPictureController(_ pictureInPictureController: AVPictureInPictureController, setPlaying playing: Bool) {
-
-#warning("This delegate method is never called on tvOS, this feels like a bug")
-
         print("\(#function)")
         if playing {
             videoProvider.start()
@@ -92,6 +89,9 @@ class TVViewController: UIViewController, AVPictureInPictureSampleBufferPlayback
     }
 
     func pictureInPictureControllerIsPlaybackPaused(_ pictureInPictureController: AVPictureInPictureController) -> Bool {
+
+#warning("This delegate method is never called on tvOS, this feels like a bug")
+        
         print("\(#function)")
         return false
     }

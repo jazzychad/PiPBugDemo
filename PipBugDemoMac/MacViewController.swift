@@ -69,9 +69,6 @@ class MacViewController: NSViewController, AVPictureInPictureSampleBufferPlaybac
     // MARK: - AVPictureInPictureSampleBufferPlaybackDelegate
 
     func pictureInPictureController(_ pictureInPictureController: AVPictureInPictureController, setPlaying playing: Bool) {
-
-#warning("This delegate method is never called on macOS, this feels like a bug")
-
         print("\(#function)")
         if playing {
             videoProvider.start()
@@ -89,6 +86,9 @@ class MacViewController: NSViewController, AVPictureInPictureSampleBufferPlaybac
     }
 
     func pictureInPictureControllerIsPlaybackPaused(_ pictureInPictureController: AVPictureInPictureController) -> Bool {
+
+#warning("This delegate method is never called on macOS, this feels like a bug")
+
         print("\(#function)")
         return false
     }
