@@ -5,6 +5,13 @@ I believe there is an Apple-level framework issue when using `AVPictureInPicture
 
 This bug manifests itself with the following consequence: **It is not possible to start a PiP session on `tvOS` or `macOS` when using an `AVSampleBufferDisplayLayer` as a content source for `AVPictureInPictureController`.**
 
+Tested on following platforms:
+```
+macOS: 12.0.1 (21A559)
+iOS: 15.1 (19B74)
+tvOS: 15.1.1 (19J587)
+```
+
 ---
 
 ### PLEASE NOTE: THIS CODE MUST BE RUN ON REAL DEVICES. SIMULATORS DO NOT SUPPORT THIS NEW PIP API
