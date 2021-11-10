@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="19455" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="appleTV" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TVViewController" customModule="PiPBugDemoTV" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="utU-Sd-wCZ">
+                                <rect key="frame" x="96" y="68" width="1728" height="640"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="640" id="b37-YY-XGG"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pnI-KG-6qK">
+                                <rect key="frame" x="864" y="732" width="192" height="86"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="_pipButtonDidTap:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="GSD-1G-rC7"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="EYa-p2-Owg">
+                                <rect key="frame" x="96" y="842" width="1728" height="46"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PiP Supported:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZoQ-e5-K5s">
+                                        <rect key="frame" x="0.0" y="0.0" width="421" height="46"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ecr-Or-Ry6">
+                                        <rect key="frame" x="436" y="0.0" width="420.5" height="46"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PiP Possible:" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQD-GT-B7l">
+                                        <rect key="frame" x="871.5" y="0.0" width="421" height="46"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXK-BE-fKF">
+                                        <rect key="frame" x="1307.5" y="0.0" width="420.5" height="46"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wu6-TO-1qx"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pnI-KG-6qK" firstAttribute="centerX" secondItem="wu6-TO-1qx" secondAttribute="centerX" id="7V6-1t-DfD"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="utU-Sd-wCZ" secondAttribute="trailing" constant="16" id="BbP-g8-LWk"/>
+                            <constraint firstItem="EYa-p2-Owg" firstAttribute="top" secondItem="pnI-KG-6qK" secondAttribute="bottom" constant="24" symbolic="YES" id="KzZ-UK-eQU"/>
+                            <constraint firstItem="EYa-p2-Owg" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="16" id="L1y-OJ-ido"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="EYa-p2-Owg" secondAttribute="trailing" constant="16" id="Xu7-n9-0au"/>
+                            <constraint firstItem="pnI-KG-6qK" firstAttribute="top" secondItem="utU-Sd-wCZ" secondAttribute="bottom" constant="24" symbolic="YES" id="Zwk-om-JZD"/>
+                            <constraint firstItem="utU-Sd-wCZ" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="16" id="elg-wT-Gtd"/>
+                            <constraint firstItem="utU-Sd-wCZ" firstAttribute="top" secondItem="wu6-TO-1qx" secondAttribute="top" constant="8" id="tNQ-vX-fdQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pipButton" destination="pnI-KG-6qK" id="hRX-jB-XSB"/>
+                        <outlet property="pipPossibleLabel" destination="lXK-BE-fKF" id="G9B-uV-OKa"/>
+                        <outlet property="pipSupportedLabel" destination="Ecr-Or-Ry6" id="z81-vz-uH2"/>
+                        <outlet property="videoContainerView" destination="utU-Sd-wCZ" id="Qel-hC-OOv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-32" y="23"/>
+        </scene>
+    </scenes>
+</document>

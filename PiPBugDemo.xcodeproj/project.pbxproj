@@ -8,23 +8,86 @@
 
 /* Begin PBXBuildFile section */
 		63D3805E273C595500EB04B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D3805D273C595500EB04B5 /* AppDelegate.swift */; };
-		63D38060273C595500EB04B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D3805F273C595500EB04B5 /* ViewController.swift */; };
+		63D38060273C595500EB04B5 /* TVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D3805F273C595500EB04B5 /* TVViewController.swift */; };
 		63D38063273C595500EB04B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D38061273C595500EB04B5 /* Main.storyboard */; };
 		63D38065273C595600EB04B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D38064273C595600EB04B5 /* Assets.xcassets */; };
 		63D38068273C595600EB04B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D38066273C595600EB04B5 /* LaunchScreen.storyboard */; };
+		63D38075273C599800EB04B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D38074273C599800EB04B5 /* AppDelegate.swift */; };
+		63D38077273C599800EB04B5 /* MacViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D38076273C599800EB04B5 /* MacViewController.swift */; };
+		63D38079273C599900EB04B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D38078273C599900EB04B5 /* Assets.xcassets */; };
+		63D3807C273C599900EB04B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D3807A273C599900EB04B5 /* Main.storyboard */; };
+		63D38088273C5A1900EB04B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D38087273C5A1900EB04B5 /* AppDelegate.swift */; };
+		63D3808A273C5A1900EB04B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D38089273C5A1900EB04B5 /* SceneDelegate.swift */; };
+		63D3808C273C5A1900EB04B5 /* IOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D3808B273C5A1900EB04B5 /* IOSViewController.swift */; };
+		63D3808F273C5A1900EB04B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D3808D273C5A1900EB04B5 /* Main.storyboard */; };
+		63D38091273C5A1A00EB04B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D38090273C5A1A00EB04B5 /* Assets.xcassets */; };
+		63D38094273C5A1A00EB04B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D38092273C5A1A00EB04B5 /* LaunchScreen.storyboard */; };
+		63D3809C273C5B4900EB04B5 /* VideoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D3809B273C5B4900EB04B5 /* VideoProvider.swift */; };
+		63D3809D273C5B4900EB04B5 /* VideoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D3809B273C5B4900EB04B5 /* VideoProvider.swift */; };
+		63D3809E273C5B4900EB04B5 /* VideoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D3809B273C5B4900EB04B5 /* VideoProvider.swift */; };
+		63D380A4273C5FA700EB04B5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D3809F273C5FA700EB04B5 /* 3.jpg */; };
+		63D380A5273C5FA700EB04B5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D3809F273C5FA700EB04B5 /* 3.jpg */; };
+		63D380A6273C5FA700EB04B5 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D3809F273C5FA700EB04B5 /* 3.jpg */; };
+		63D380A7273C5FA700EB04B5 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D380A0273C5FA700EB04B5 /* 5.jpg */; };
+		63D380A8273C5FA700EB04B5 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D380A0273C5FA700EB04B5 /* 5.jpg */; };
+		63D380A9273C5FA700EB04B5 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D380A0273C5FA700EB04B5 /* 5.jpg */; };
+		63D380AA273C5FA700EB04B5 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D380A1273C5FA700EB04B5 /* 4.jpg */; };
+		63D380AB273C5FA700EB04B5 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D380A1273C5FA700EB04B5 /* 4.jpg */; };
+		63D380AC273C5FA700EB04B5 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D380A1273C5FA700EB04B5 /* 4.jpg */; };
+		63D380AD273C5FA700EB04B5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D380A2273C5FA700EB04B5 /* 1.jpg */; };
+		63D380AE273C5FA700EB04B5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D380A2273C5FA700EB04B5 /* 1.jpg */; };
+		63D380AF273C5FA700EB04B5 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D380A2273C5FA700EB04B5 /* 1.jpg */; };
+		63D380B0273C5FA700EB04B5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D380A3273C5FA700EB04B5 /* 2.jpg */; };
+		63D380B1273C5FA700EB04B5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D380A3273C5FA700EB04B5 /* 2.jpg */; };
+		63D380B2273C5FA700EB04B5 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63D380A3273C5FA700EB04B5 /* 2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		63D3805A273C595500EB04B5 /* PiPBugDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiPBugDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D3805A273C595500EB04B5 /* PiPBugDemoTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiPBugDemoTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D3805D273C595500EB04B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63D3805F273C595500EB04B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63D3805F273C595500EB04B5 /* TVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVViewController.swift; sourceTree = "<group>"; };
 		63D38062273C595500EB04B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63D38064273C595600EB04B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63D38067273C595600EB04B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63D38072273C599800EB04B5 /* PipBugDemoMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PipBugDemoMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D38074273C599800EB04B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63D38076273C599800EB04B5 /* MacViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacViewController.swift; sourceTree = "<group>"; };
+		63D38078273C599900EB04B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63D3807B273C599900EB04B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63D3807D273C599900EB04B5 /* PipBugDemoMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PipBugDemoMac.entitlements; sourceTree = "<group>"; };
+		63D38085273C5A1900EB04B5 /* PiPBugDemoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PiPBugDemoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D38087273C5A1900EB04B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63D38089273C5A1900EB04B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63D3808B273C5A1900EB04B5 /* IOSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSViewController.swift; sourceTree = "<group>"; };
+		63D3808E273C5A1900EB04B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63D38090273C5A1A00EB04B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63D38093273C5A1A00EB04B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63D38095273C5A1A00EB04B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D38099273C5A2D00EB04B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		63D3809B273C5B4900EB04B5 /* VideoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProvider.swift; sourceTree = "<group>"; };
+		63D3809F273C5FA700EB04B5 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		63D380A0273C5FA700EB04B5 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		63D380A1273C5FA700EB04B5 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		63D380A2273C5FA700EB04B5 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		63D380A3273C5FA700EB04B5 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		63D38057273C595500EB04B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D3806F273C599800EB04B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D38082273C5A1900EB04B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,7 +100,10 @@
 		63D38051273C595500EB04B5 = {
 			isa = PBXGroup;
 			children = (
-				63D3805C273C595500EB04B5 /* PiPBugDemo */,
+				63D3809A273C5B1700EB04B5 /* Common */,
+				63D3805C273C595500EB04B5 /* PiPBugDemoTV */,
+				63D38073273C599800EB04B5 /* PipBugDemoMac */,
+				63D38086273C5A1900EB04B5 /* PiPBugDemoIOS */,
 				63D3805B273C595500EB04B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,29 +111,71 @@
 		63D3805B273C595500EB04B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63D3805A273C595500EB04B5 /* PiPBugDemo.app */,
+				63D3805A273C595500EB04B5 /* PiPBugDemoTV.app */,
+				63D38072273C599800EB04B5 /* PipBugDemoMac.app */,
+				63D38085273C5A1900EB04B5 /* PiPBugDemoIOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		63D3805C273C595500EB04B5 /* PiPBugDemo */ = {
+		63D3805C273C595500EB04B5 /* PiPBugDemoTV */ = {
 			isa = PBXGroup;
 			children = (
+				63D38099273C5A2D00EB04B5 /* Info.plist */,
 				63D3805D273C595500EB04B5 /* AppDelegate.swift */,
-				63D3805F273C595500EB04B5 /* ViewController.swift */,
+				63D3805F273C595500EB04B5 /* TVViewController.swift */,
 				63D38061273C595500EB04B5 /* Main.storyboard */,
 				63D38064273C595600EB04B5 /* Assets.xcassets */,
 				63D38066273C595600EB04B5 /* LaunchScreen.storyboard */,
 			);
-			path = PiPBugDemo;
+			path = PiPBugDemoTV;
+			sourceTree = "<group>";
+		};
+		63D38073273C599800EB04B5 /* PipBugDemoMac */ = {
+			isa = PBXGroup;
+			children = (
+				63D38074273C599800EB04B5 /* AppDelegate.swift */,
+				63D38076273C599800EB04B5 /* MacViewController.swift */,
+				63D38078273C599900EB04B5 /* Assets.xcassets */,
+				63D3807A273C599900EB04B5 /* Main.storyboard */,
+				63D3807D273C599900EB04B5 /* PipBugDemoMac.entitlements */,
+			);
+			path = PipBugDemoMac;
+			sourceTree = "<group>";
+		};
+		63D38086273C5A1900EB04B5 /* PiPBugDemoIOS */ = {
+			isa = PBXGroup;
+			children = (
+				63D38087273C5A1900EB04B5 /* AppDelegate.swift */,
+				63D38089273C5A1900EB04B5 /* SceneDelegate.swift */,
+				63D3808B273C5A1900EB04B5 /* IOSViewController.swift */,
+				63D3808D273C5A1900EB04B5 /* Main.storyboard */,
+				63D38090273C5A1A00EB04B5 /* Assets.xcassets */,
+				63D38092273C5A1A00EB04B5 /* LaunchScreen.storyboard */,
+				63D38095273C5A1A00EB04B5 /* Info.plist */,
+			);
+			path = PiPBugDemoIOS;
+			sourceTree = "<group>";
+		};
+		63D3809A273C5B1700EB04B5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				63D3809B273C5B4900EB04B5 /* VideoProvider.swift */,
+				63D380A2273C5FA700EB04B5 /* 1.jpg */,
+				63D380A3273C5FA700EB04B5 /* 2.jpg */,
+				63D3809F273C5FA700EB04B5 /* 3.jpg */,
+				63D380A1273C5FA700EB04B5 /* 4.jpg */,
+				63D380A0273C5FA700EB04B5 /* 5.jpg */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63D38059273C595500EB04B5 /* PiPBugDemo */ = {
+		63D38059273C595500EB04B5 /* PiPBugDemoTV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63D3806B273C595600EB04B5 /* Build configuration list for PBXNativeTarget "PiPBugDemo" */;
+			buildConfigurationList = 63D3806B273C595600EB04B5 /* Build configuration list for PBXNativeTarget "PiPBugDemoTV" */;
 			buildPhases = (
 				63D38056273C595500EB04B5 /* Sources */,
 				63D38057273C595500EB04B5 /* Frameworks */,
@@ -77,9 +185,43 @@
 			);
 			dependencies = (
 			);
-			name = PiPBugDemo;
+			name = PiPBugDemoTV;
 			productName = PiPBugDemo;
-			productReference = 63D3805A273C595500EB04B5 /* PiPBugDemo.app */;
+			productReference = 63D3805A273C595500EB04B5 /* PiPBugDemoTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63D38071273C599800EB04B5 /* PipBugDemoMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D3807E273C599900EB04B5 /* Build configuration list for PBXNativeTarget "PipBugDemoMac" */;
+			buildPhases = (
+				63D3806E273C599800EB04B5 /* Sources */,
+				63D3806F273C599800EB04B5 /* Frameworks */,
+				63D38070273C599800EB04B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PipBugDemoMac;
+			productName = PipBugDemoMac;
+			productReference = 63D38072273C599800EB04B5 /* PipBugDemoMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63D38084273C5A1900EB04B5 /* PiPBugDemoIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D38096273C5A1A00EB04B5 /* Build configuration list for PBXNativeTarget "PiPBugDemoIOS" */;
+			buildPhases = (
+				63D38081273C5A1900EB04B5 /* Sources */,
+				63D38082273C5A1900EB04B5 /* Frameworks */,
+				63D38083273C5A1900EB04B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PiPBugDemoIOS;
+			productName = PiPBugDemoIOS;
+			productReference = 63D38085273C5A1900EB04B5 /* PiPBugDemoIOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -93,6 +235,12 @@
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					63D38059273C595500EB04B5 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					63D38071273C599800EB04B5 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					63D38084273C5A1900EB04B5 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -110,7 +258,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63D38059273C595500EB04B5 /* PiPBugDemo */,
+				63D38059273C595500EB04B5 /* PiPBugDemoTV */,
+				63D38071273C599800EB04B5 /* PipBugDemoMac */,
+				63D38084273C5A1900EB04B5 /* PiPBugDemoIOS */,
 			);
 		};
 /* End PBXProject section */
@@ -120,9 +270,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D380AA273C5FA700EB04B5 /* 4.jpg in Resources */,
 				63D38068273C595600EB04B5 /* LaunchScreen.storyboard in Resources */,
+				63D380A7273C5FA700EB04B5 /* 5.jpg in Resources */,
 				63D38065273C595600EB04B5 /* Assets.xcassets in Resources */,
 				63D38063273C595500EB04B5 /* Main.storyboard in Resources */,
+				63D380A4273C5FA700EB04B5 /* 3.jpg in Resources */,
+				63D380B0273C5FA700EB04B5 /* 2.jpg in Resources */,
+				63D380AD273C5FA700EB04B5 /* 1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D38070273C599800EB04B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D380A5273C5FA700EB04B5 /* 3.jpg in Resources */,
+				63D380A8273C5FA700EB04B5 /* 5.jpg in Resources */,
+				63D380B1273C5FA700EB04B5 /* 2.jpg in Resources */,
+				63D38079273C599900EB04B5 /* Assets.xcassets in Resources */,
+				63D380AE273C5FA700EB04B5 /* 1.jpg in Resources */,
+				63D380AB273C5FA700EB04B5 /* 4.jpg in Resources */,
+				63D3807C273C599900EB04B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D38083273C5A1900EB04B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D380AC273C5FA700EB04B5 /* 4.jpg in Resources */,
+				63D38094273C5A1A00EB04B5 /* LaunchScreen.storyboard in Resources */,
+				63D380A9273C5FA700EB04B5 /* 5.jpg in Resources */,
+				63D38091273C5A1A00EB04B5 /* Assets.xcassets in Resources */,
+				63D3808F273C5A1900EB04B5 /* Main.storyboard in Resources */,
+				63D380A6273C5FA700EB04B5 /* 3.jpg in Resources */,
+				63D380B2273C5FA700EB04B5 /* 2.jpg in Resources */,
+				63D380AF273C5FA700EB04B5 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,8 +317,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D38060273C595500EB04B5 /* ViewController.swift in Sources */,
+				63D3809C273C5B4900EB04B5 /* VideoProvider.swift in Sources */,
+				63D38060273C595500EB04B5 /* TVViewController.swift in Sources */,
 				63D3805E273C595500EB04B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D3806E273C599800EB04B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D3809D273C5B4900EB04B5 /* VideoProvider.swift in Sources */,
+				63D38077273C599800EB04B5 /* MacViewController.swift in Sources */,
+				63D38075273C599800EB04B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D38081273C5A1900EB04B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D3809E273C5B4900EB04B5 /* VideoProvider.swift in Sources */,
+				63D3808C273C5A1900EB04B5 /* IOSViewController.swift in Sources */,
+				63D38088273C5A1900EB04B5 /* AppDelegate.swift in Sources */,
+				63D3808A273C5A1900EB04B5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +359,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				63D38067273C595600EB04B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		63D3807A273C599900EB04B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D3807B273C599900EB04B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63D3808D273C5A1900EB04B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D3808E273C5A1900EB04B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63D38092273C5A1A00EB04B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D38093273C5A1A00EB04B5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -285,6 +515,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RN7WL7C56W;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiPBugDemoTV/Info.plist;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
@@ -293,8 +524,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.PiPBugDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PiPBugDemoTV;
+				PRODUCT_NAME = PiPBugDemoTV;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -310,6 +541,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RN7WL7C56W;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiPBugDemoTV/Info.plist;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
@@ -318,11 +550,129 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.PiPBugDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PiPBugDemoTV;
+				PRODUCT_NAME = PiPBugDemoTV;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		63D3807F273C599900EB04B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PipBugDemoMac/PipBugDemoMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN7WL7C56W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PipBugDemoMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63D38080273C599900EB04B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PipBugDemoMac/PipBugDemoMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN7WL7C56W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PipBugDemoMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		63D38097273C5A1A00EB04B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN7WL7C56W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiPBugDemoIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PiPBugDemoIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63D38098273C5A1A00EB04B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN7WL7C56W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PiPBugDemoIOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PiPBugDemoIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -338,11 +688,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63D3806B273C595600EB04B5 /* Build configuration list for PBXNativeTarget "PiPBugDemo" */ = {
+		63D3806B273C595600EB04B5 /* Build configuration list for PBXNativeTarget "PiPBugDemoTV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63D3806C273C595600EB04B5 /* Debug */,
 				63D3806D273C595600EB04B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D3807E273C599900EB04B5 /* Build configuration list for PBXNativeTarget "PipBugDemoMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D3807F273C599900EB04B5 /* Debug */,
+				63D38080273C599900EB04B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D38096273C5A1A00EB04B5 /* Build configuration list for PBXNativeTarget "PiPBugDemoIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D38097273C5A1A00EB04B5 /* Debug */,
+				63D38098273C5A1A00EB04B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
